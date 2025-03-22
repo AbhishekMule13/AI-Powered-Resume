@@ -1,4 +1,4 @@
-# AI-Powered-Resume & Ranking System
+AI Resume Screening & Ranking System
 
 This project is an AI-powered resume screening and ranking system built using Streamlit, scikit-learn, and PyPDF2. The application allows users to upload resumes in PDF format, compares them to a given job description, and ranks them based on cosine similarity using TF-IDF.
 
@@ -14,19 +14,22 @@ Displays ranked resumes with similarity scores.
 
 📂 Folder Structure
 
-resume_screening_app/ │── .venv/
-│── app.py
-│── requirements.txt
-├── resume_ranking.ipynb
-│── data/
-│ ├── sample_resume.pdf │── README.md
-│── .gitignore
+resume_screening_app/
+│── .venv/                    
+│── app.py                     
+│── requirements.txt            
+├── resume_ranking.ipynb   
+│── data/                       
+│   ├── sample_resume.pdf 
+│── README.md               
+│── .gitignore                   
 
 🛠️ Installation & Setup
 
 1️⃣ Clone the Repository
 
-git clone 
+git clone https://github.com/Akshith1007/AI-powered-Resume-Screening-and-Ranking-System.git
+
 
 2️⃣ (Optional) Create a Virtual Environment
 
@@ -72,7 +75,11 @@ Click Deploy 🚀
 
 🔧 Requirements
 
-streamlit PyPDF2 pandas scikit-learn numpy
+streamlit
+PyPDF2
+pandas
+scikit-learn
+numpy
 
 Install using:
 
@@ -96,4 +103,5 @@ AI Enthusiasts & Students – Learn NLP-based resume analysis.
 
 This AI-powered Resume Screening & Ranking System addresses the challenge of manual resume screening, which is time-consuming and inefficient. By leveraging TF-IDF and Cosine Similarity, the system automates resume ranking, ensuring fast, objective, and accurate candidate shortlisting. With PDF text extraction, real-time ranking, and easy deployment via Streamlit, this project provides an efficient, scalable, and user-friendly solution for recruiters, hiring managers, and job portals. 🚀
 
-Streamlit Cloud deploy site: ai-powered-resume-screening-and-ranking-system-6925.streamlit.app
+Streamlit Cloud deploy site:
+ai-powered-resume-screening-and-ranking-system-6925.streamlit.app   
