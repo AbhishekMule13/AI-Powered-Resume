@@ -3,7 +3,6 @@ AI Resume Screening & Ranking System
 This project is an AI-powered resume screening and ranking system built using Streamlit, scikit-learn, and PyPDF2. The application allows users to upload resumes in PDF format, compares them to a given job description, and ranks them based on cosine similarity using TF-IDF.
 
 🚀 Features
-
 Upload multiple PDF resumes.
 
 Enter a job description to compare.
@@ -105,3 +104,6 @@ This AI-powered Resume Screening & Ranking System addresses the challenge of man
 
 Streamlit Cloud deploy site:
 ai-powered-resume-screening-and-ranking-system-6925.streamlit.app   
+
+
+Hii
