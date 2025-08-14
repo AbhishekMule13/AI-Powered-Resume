@@ -106,3 +106,37 @@ Streamlit Cloud deploy site:
 ai-powered-resume-screening-and-ranking-system-6925.streamlit.app   
 
 
+**How to Run the Project (First Time)**
+
+1️⃣ Download the project from GitHub
+git clone https://github.com/AbhishekMule13/AI-Powered-Resume.git
+Move into the project folder
+cd AI-Powered-Resume
+
+2️⃣ (Optional) Create a virtual environment
+python -m venv .venv
+Activate virtual environment (choose the right command for your OS)
+Windows:
+.venv\Scripts\activate
+Mac/Linux:
+source .venv/bin/activate
+
+3️⃣ Install all required Python libraries
+pip install -r requirements.txt
+
+4️⃣ Run the Streamlit application
+streamlit run app.py
+
+5️⃣ Access in your browser
+After running the above command, Streamlit will open automatically.
+If it doesn’t, copy the Local URL shown (example: http://localhost:8501) and paste it into your browser.
+
+**Next Time (Quick Start)**
+
+cd AI-Powered-Resume
+.venv\Scripts\activate       # Windows
+
+*# source .venv/bin/activate  # Mac/Linux
+
+streamlit run app.py
+
